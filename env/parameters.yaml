@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:facegiant/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:facegiant/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:facegiant/prow:hmacToken
+segmentWriteKey: vault:facegiant:segmentWriteKey
